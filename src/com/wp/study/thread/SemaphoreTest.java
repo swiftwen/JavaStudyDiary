@@ -3,10 +3,10 @@ package com.wp.study.thread;
 import java.util.concurrent.Semaphore;
 
 /**
- * @desc Semaphore·­Òë³É×ÖÃæÒâË¼Îª ĞÅºÅÁ¿£¬Semaphore¿ÉÒÔ¿ØÍ¬Ê±·ÃÎÊµÄÏß³Ì¸öÊı£¬
- * Í¨¹ı acquire() »ñÈ¡Ò»¸öĞí¿É£¬Èç¹ûÃ»ÓĞ¾ÍµÈ´ı£¬¶ø release() ÊÍ·ÅÒ»¸öĞí¿É¡£
+ * @desc Semaphoreï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¼Îª ï¿½Åºï¿½ï¿½ï¿½ï¿½ï¿½Semaphoreï¿½ï¿½ï¿½Ô¿ï¿½Í¬Ê±ï¿½ï¿½ï¿½Êµï¿½ï¿½ß³Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½
+ * Í¨ï¿½ï¿½ acquire() ï¿½ï¿½È¡Ò»ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ğ¾ÍµÈ´ï¿½ï¿½ï¿½ï¿½ï¿½ release() ï¿½Í·ï¿½Ò»ï¿½ï¿½ï¿½ï¿½É¡ï¿½
  * @Author wenpeng
- * @2018Äê4ÔÂ18ÈÕ ÏÂÎç1:48:06
+ * @2018ï¿½ï¿½4ï¿½ï¿½18ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½1:48:06
  */
 public class SemaphoreTest {
 
@@ -30,9 +30,9 @@ class WorkerThread extends Thread{
 	public void run() {
 		try {
 			semaphore.acquire();
-			System.out.println("¹¤ÈË"+num+"¿ªÊ¼Éú²ú");
+			System.out.println("å·¥äºº"+num+"å¼€å§‹å·¥ä½œ");
 			Thread.sleep(1000);
-			System.out.println("¹¤ÈË"+num+"½áÊøÉú²ú");
+			System.out.println("å·¥äºº"+num+"ç»“æŸå·¥ä½œ");
 			semaphore.release();
 			
 		}catch(Exception e) {

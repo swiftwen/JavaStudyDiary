@@ -3,15 +3,10 @@ package com.wp.study.thread;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @desc CountDownLatchÀàÎ»ÓÚjava.util.concurrent°üÏÂ£¬ÀûÓÃËü¿ÉÒÔÊµÏÖÀàËÆ¼ÆÊıÆ÷µÄ¹¦ÄÜ
- * ±ÈÈçÓĞÒ»¸öÈÎÎñA£¬ËüÒªµÈ´ıÆäËû4¸öÈÎÎñÖ´ĞĞÍê±ÏÖ®ºó²ÅÄÜÖ´ĞĞ£¬´ËÊ±¾Í¿ÉÒÔÀûÓÃCountDownLatchÀ´ÊµÏÖÕâÖÖ¹¦ÄÜÁË
- * Ö÷Òª·½·¨£º
- * public void await() throws InterruptedException { };  //µ÷ÓÃawait()·½·¨µÄÏß³Ì»á±»¹ÒÆğ£¬Ëü»áµÈ´ıÖ±µ½countÖµÎª0²Å¼ÌĞøÖ´ĞĞ
- * public boolean await(long timeout, TimeUnit unit) throws InterruptedException { };  
- *                                //ºÍawait()ÀàËÆ£¬Ö»²»¹ıµÈ´ıÒ»¶¨µÄÊ±¼äºócountÖµ»¹Ã»±äÎª0µÄ»°¾Í»á¼ÌĞøÖ´ĞĞ
- * public void countDown() { };  //½«countÖµ¼õ1
+ * 
+ * @desc 
  * @Author wenpeng
- * @2018Äê4ÔÂ18ÈÕ ÉÏÎç9:49:50
+ * @2018å¹´4æœˆ18æ—¥ ä¸‹åˆ4:58:35
  */
 public class CountDownLatchTest {
 
