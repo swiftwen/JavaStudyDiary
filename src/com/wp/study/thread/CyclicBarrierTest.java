@@ -3,11 +3,9 @@ package com.wp.study.thread;
 import java.util.concurrent.CyclicBarrier;
 
 /**
- * @desc ×ÖÃæÒâË¼»Ø»·Õ¤À¸£¬Í¨¹ıËü¿ÉÒÔÊµÏÖÈÃÒ»×éÏß³ÌµÈ´ıÖÁÄ³¸ö×´Ì¬Ö®ºóÔÙÈ«²¿Í¬Ê±Ö´ĞĞ¡£
- * ½Ğ×ö»Ø»·ÊÇÒòÎªµ±ËùÓĞµÈ´ıÏß³Ì¶¼±»ÊÍ·ÅÒÔºó£¬CyclicBarrier¿ÉÒÔ±»ÖØÓÃ¡£
- * ÎÒÃÇÔİÇÒ°ÑÕâ¸ö×´Ì¬¾Í½Ğ×öbarrier£¬µ±µ÷ÓÃawait()·½·¨Ö®ºó£¬Ïß³Ì¾Í´¦ÓÚbarrierÁË¡£
+ * @desc 
  * @Author wenpeng
- * @2018Äê4ÔÂ18ÈÕ ÉÏÎç10:05:13
+ * @2018å¹´4æœˆ18æ—¥ ä¸Šåˆ10:05:13
  */
 public class CyclicBarrierTest {
 
