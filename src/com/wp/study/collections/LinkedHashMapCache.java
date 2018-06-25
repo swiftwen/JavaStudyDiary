@@ -20,7 +20,7 @@ public class LinkedHashMapCache<K,V> extends LinkedHashMap<K,V> {
 	private int maxParties;
 	
 	public LinkedHashMapCache(int maxParties) {
-		super(16, 0.75f, true); //������˳��
+		super(16, 0.75f, true); //true 按访问有序
 		this.maxParties = maxParties;
 	}
 

@@ -1,15 +1,12 @@
 package com.wp.study.queue.delayQueue;
-
-import java.util.concurrent.DelayQueue;
-
+/**
+ * a×i×（1＋i）^n÷〔（1＋i）^n－1〕
+ * @desc 
+ * @Author wenpeng
+ * @2018年6月14日 下午2:13:24
+ */
 public class Test {
 	public static void main(String[] args) throws Exception {
-		DelayQueue<DelayEvent> queue = new DelayQueue<DelayEvent>();
-		DelayEvent element1 = new DelayEvent(10000, "zlx");
-		DelayEvent element2 = new DelayEvent(50000, "gh");
-		queue.put(element1);
-		queue.put(element2);
-		element1 = queue.take();
-		System.out.println(element1);
+		System.out.println(33.45*36);
 	}
 }
