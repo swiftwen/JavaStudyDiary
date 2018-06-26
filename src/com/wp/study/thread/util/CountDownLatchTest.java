@@ -1,4 +1,4 @@
-package com.wp.study.thread;
+package com.wp.study.thread.util;
 
 import java.util.concurrent.CountDownLatch;
 
