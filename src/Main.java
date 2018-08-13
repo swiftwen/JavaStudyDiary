@@ -1,4 +1,5 @@
-import java.util.Scanner;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * @desc 
@@ -7,20 +8,11 @@ import java.util.Scanner;
  */
 public class Main {
 
-	public static void main(String[] args) {
-       Thread t = null;
-		Scanner in = new Scanner(System.in);
-		int n,k;
-		n = in.nextInt();
-		k = in.nextInt();
-		int cnt = 0;
-		//x%y >= k && x<=n && y<=n
-		for(int y=k+1;y<=n;y++) {
-			//ArrayList
-			
-		}
-		in.close();
-		
+	public static void main(String[] args) throws Exception{
+      
+		String time = "2018-08-06";
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		System.out.println(sdf.parse(time));
 	}
 
 }
