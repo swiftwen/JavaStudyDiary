@@ -1,18 +1,35 @@
+import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * @desc 
- * @Author wenpeng
- * @2018年6月20日 下午4:16:54
- */
+
 public class Main {
 
+public static double myPow(double x, int n) {
+        BigDecimal ret = BigDecimal.ONE;
+        BigDecimal xx = BigDecimal.valueOf(x);
+        boolean flag = false;
+        if(n<0){
+        	n = -n;
+        	flag = true;
+        }
+        while(n > 0){
+        	if((n&1)==1){
+        		ret = ret.multiply(xx);
+        		n--;
+        	}else{
+        		xx = xx.multiply(xx);
+        		n>>=1;
+        	}
+        }
+        if(flag){
+        	ret = BigDecimal.ONE.divide(ret);
+        }
+       return ret.doubleValue();
+    }
 	public static void main(String[] args) throws Exception{
       
-		String time = "2018-08-06";
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-		System.out.println(sdf.parse(time));
+		System.out.println(myPow(2,40));
 	}
 
 }

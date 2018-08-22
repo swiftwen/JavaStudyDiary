@@ -1,4 +1,4 @@
-package com.wp.util;
+/*package com.wp.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -22,12 +22,12 @@ import cn.touna.fund.share.s360.S360LoanCallBackRequest;
 import cn.touna.fund.share.s360.S360QueryMoneyResponse;
 import net.sf.cglib.proxy.Enhancer;
 
-/**
+*//**
  * 本加载器仅用于LoanChannel注解的IRoutePayment或IResultQuery子类
  * 作者:Share.Mu
  * 日期：2018年4月25日 下午4:52:01
  * 描述：放款渠道对象加载.
- */
+ *//*
 public class LendChanelManager {
     private static final HashMap<Integer, IRoutePayment> routePaymentInstance = new HashMap<>();
     private static final HashMap<Integer, Class> routePaymentClassCache = new HashMap<>();
@@ -245,3 +245,4 @@ public class LendChanelManager {
 
 
 }
+*/
