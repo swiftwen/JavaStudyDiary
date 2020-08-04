@@ -14,9 +14,7 @@ public class Main {
 		return s;
     }
 	public static void main(String[] args) throws Exception {
-	    List<Integer> list = new ArrayList<>();
-	    list.add(1);
-	    System.out.println(list.isEmpty()==false);
+	    System.out.println("hahah"); 
 	}
 }
 

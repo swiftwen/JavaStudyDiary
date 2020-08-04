@@ -1,4 +1,4 @@
-package com.wp.util;
+/*package com.wp.util;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -12,17 +12,17 @@ import java.util.Set;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
-/**
+*//**
  * 
  * @author saga
  * @description:遍历class文件
  * @project_name:com.touna.infructure.util
  * @file_name:ClassUtil.java
  * @date:2017年7月19日 上午10:25:59
- */
+ *//*
 public class ClassUtil {
 
-	/**
+	*//**
 	 * 
 	 * @author saga
 	 * @description:取得某一类所在包的所有类名 不含迭代
@@ -30,7 +30,7 @@ public class ClassUtil {
 	 * @param packageName
 	 * @return
 	 * @date 2017年7月19日 上午10:43:42
-	 */
+	 *//*
 	public static String[] getPackageAllClassName(String classLocation, String packageName) {
 
 		// 将packageName分解
@@ -48,12 +48,12 @@ public class ClassUtil {
 		return null;
 	}
 
-	/**
+	*//**
 	 * 从包package中获取所有的Class
 	 * 
 	 * @param pack
 	 * @return
-	 */
+	 *//*
 	public static Set<Class<?>> getClasses(String packageName) {
 		// 第一个class类的集合
 		Set<Class<?>> classes = new LinkedHashSet<Class<?>>();
@@ -131,14 +131,14 @@ public class ClassUtil {
 		return classes;
 	}
 
-	/**
+	*//**
 	 * 以文件的形式来获取包下的所有Class
 	 * 
 	 * @param packageName
 	 * @param packagePath
 	 * @param recursive
 	 * @param classes
-	 */
+	 *//*
 	public static void findAndAddClassesInPackageByFile(String packageName, String packagePath, final boolean recursive,
 			Set<Class<?>> classes) {
 		// 获取此包的目录 建立一个File
@@ -175,3 +175,4 @@ public class ClassUtil {
 		}
 	}
 }
+*/
